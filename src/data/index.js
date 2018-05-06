@@ -2,6 +2,15 @@
 
 export const projects = [
         {
+            label: "Stagg",
+            category: "Business",
+            img: "images/stagg.jpg",
+            link: "project/Stagg",
+            type: "link",
+            modalDisplay: false,
+            visible: true
+        },
+        {
             label: "HR: Value based Sales",
             category: "Business",
             img: "images/value_based_sales.jpg",
@@ -62,7 +71,7 @@ export const projects = [
             link: "development_tbd",
             type: "modal",
             modalDisplay: false,
-            visible: true
+            visible: false
         },
         {
             label: "Diamond Analysis",
@@ -80,7 +89,7 @@ export const projects = [
             link: "analytics_tbd1",
             type: "modal",
             modalDisplay: false,
-            visible: true
+            visible: false
         },
         {
             label: "Analytics: TBD 2",
@@ -89,7 +98,7 @@ export const projects = [
             link: "analytics_tbd2",
             type: "modal",
             modalDisplay: false,
-            visible: true
+            visible: false
         },
     ];
 

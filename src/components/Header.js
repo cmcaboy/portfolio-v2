@@ -8,6 +8,7 @@ import FBIcon from 'react-icons/lib/fa/facebook-square';
 import TwitterIcon from 'react-icons/lib/fa/twitter-square';
 import LinkedInIcon from 'react-icons/lib/fa/linkedin-square';
 import GithubIcon from 'react-icons/lib/fa/github-square';
+import FeaturedIcon from 'react-icons/lib/md/star';
 
 
 const ICON_SIZE = 26;
@@ -20,6 +21,13 @@ const Header = ({ startLogout }) => (
           <div className="header__link">
             <HomeIcon color="white" size={ICON_SIZE}/>
             <p className="header__link-text">Home</p>
+          </div>
+        </Link>
+        <hr className="hr-header"/>
+        <Link to="/featured" className="header__title">
+          <div className="header__link">
+            <FeaturedIcon color="white" size={ICON_SIZE} />
+            <p className="header__link-text">Featured</p>
           </div>
         </Link>
         <hr className="hr-header"/>

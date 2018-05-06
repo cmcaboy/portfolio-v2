@@ -6,6 +6,8 @@ $fontSize:9px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
+    height: 100%;
 }
 
 .header__content {

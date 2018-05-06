@@ -16,13 +16,14 @@
 }
 
 .card-photo {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     border-radius: 2px;
 }
 
 .card-label {
     font-size: 14;
+    font-weight: 600;
 }
 
 .card-modal {
@@ -81,10 +82,6 @@
     margin: 0;
     //list-style-type: none;
 }
-
-li::before {
-    color: #fff; /* or whatever color you prefer */
-  }
 
 // .loader-style {
 //     position: absolute;

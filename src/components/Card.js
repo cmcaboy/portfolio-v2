@@ -7,7 +7,8 @@ const customStyles = {
     content : {
       margin: '10% 20%',
       borderWidth: '2px',
-      borderColor: '#364051'
+      borderColor: '#364051',
+      overflowY: 'scroll'
     }
   };  
 

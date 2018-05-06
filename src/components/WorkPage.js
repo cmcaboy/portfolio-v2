@@ -35,14 +35,14 @@ class WorkPage extends React.Component {
           </p>
           <br />
           <p className="work-aboutme-text">
-            On my freetime, I develop fullstack web and mobile applications. Using React and
+            On the side, I develop fullstack web and mobile applications. Using React and
             React Native, I have built products ranging from dating apps to mapping software. For my backend,
             I use Google as my cloud vendor and Node.js as my primary server-side language. I am consistently
             learning new technologies, strategies, and trends in the product space.
           </p>
           <br />
           <p className="work-aboutme-text">
-            Socially, I enjoy travel, fitness, and friends. I am absolutely obsessed with physical 
+            In my free time, I enjoy travel, fitness, and friends. I am absolutely obsessed with physical 
             fitness. I will either run, bike, or swim almost every day.
           </p>
         </div>
