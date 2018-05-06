@@ -78,9 +78,10 @@ export default class Card extends React.Component {
     
 
     render() {
+        const {renderModal = true} = this.props;
         return (
             <div>
-                {this.renderModal(this.props.item)}
+                {renderModal && this.renderModal(this.props.item)}
                 <CardItem
                     key={this.props.item.label}
                     img={this.props.item.img} 

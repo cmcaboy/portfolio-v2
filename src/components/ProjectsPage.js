@@ -10,10 +10,13 @@ const ProjectsPage = () => (
       {projects.map(project => {
         if(project.visible) {
           return (
-            <Card 
-              key={project.label}
-              item={project}
-            />
+            <a href={project.link}>
+              <Card 
+                key={project.label}
+                item={project}
+                renderModal={false}
+              />
+            </a>
           )
         }
       })}

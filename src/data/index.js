@@ -5,7 +5,7 @@ export const projects = [
             label: "Stagg",
             category: "Business",
             img: "images/stagg.jpg",
-            link: "project/Stagg",
+            link: "featured",
             type: "link",
             modalDisplay: false,
             visible: true
@@ -50,7 +50,7 @@ export const projects = [
             label: "Frogger Game",
             category: "Development",
             img: "images/frogger.jpg",
-            link: "project/frogger",
+            link: "https://arcade-game-ca970.firebaseapp.com/",
             type: "link",
             modalDisplay: false,
             visible: true
@@ -59,7 +59,7 @@ export const projects = [
             label: "Neighborhood Map",
             category: "Development",
             img: "images/neighborhood_map.jpg",
-            link: "project/neighborhood",
+            link: "https://myfirestoretest-8f8a1.firebaseapp.com",
             type: "link",
             modalDisplay: false,
             visible: true
@@ -80,13 +80,13 @@ export const projects = [
             link: "diamond_analysis",
             type: "modal",
             modalDisplay: false,
-            visible: true
+            visible: false
         },
         {
-            label: "Analytics: TBD 1",
+            label: "KC Crime Interactive Graph",
             category: "Analytics",
             img: "images/analytics_tbd1.png",
-            link: "analytics_tbd1",
+            link: "",
             type: "modal",
             modalDisplay: false,
             visible: false
