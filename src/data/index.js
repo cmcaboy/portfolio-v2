@@ -32,7 +32,7 @@ export const projects = [
             label: "Retention Analysis",
             category: "Business",
             img: "images/retention_analysis.png",
-            link: "project/retention_analysis.pdf",
+            link: "project/wave_retention_analysis.pdf",
             type: "modal",
             modalDisplay: false,
             visible: true
@@ -86,10 +86,10 @@ export const projects = [
             label: "KC Crime Interactive Graph",
             category: "Analytics",
             img: "images/analytics_tbd1.png",
-            link: "",
+            link: "https://kccrime-c28dd.firebaseapp.com",
             type: "modal",
             modalDisplay: false,
-            visible: false
+            visible: true
         },
         {
             label: "Analytics: TBD 2",

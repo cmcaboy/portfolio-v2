@@ -19,6 +19,14 @@ export default class FeaturedPage extends React.Component {
                     Google Cloud Functions, and Firestore
                 </p>
                 <hr className="landing-hr" />
+                    <a href="https://github.com/cmcaboy/stagg">
+                <div className="feature-button">
+                    <div className="github-icon">
+                        <GithubIcon />
+                    </div>
+                     <p className="github-label">Source Code</p>
+                </div>
+                    </a>
                 <div className="feature-gif-container">
                     <div className="feature-gif-item">
                         <img src="images/stagg_login_gif.gif" className="feature-gif"/>
@@ -37,14 +45,6 @@ export default class FeaturedPage extends React.Component {
                         <p className="feature-gif-caption">edit profile/settings</p>
                     </div>
                 </div>
-                    <a href="https://github.com/cmcaboy/stagg">
-                <div className="feature-button">
-                    <div className="github-icon">
-                        <GithubIcon />
-                    </div>
-                     <p className="github-label">Source Code</p>
-                </div>
-                    </a>
             </div>
         );
     }
